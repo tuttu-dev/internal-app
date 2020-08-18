@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: events-internal
-        image: gcr.io/complete-octane-281203/internal-image:v1.0.0
+        image: gcr.io/sincere-scheme-272009/internal-image:v2
         env:
         - name: PORT
           value: "8080"
